@@ -14,9 +14,17 @@ html,
 body {
   margin: 0 !important;
   padding: 0;
+  height: 100%;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main { flex: 1; }
 
 .uuocc-theme-layout__nav {
   margin: 0 auto;
@@ -127,6 +135,7 @@ body {
 
 .component-slim-hero {
   display: flex;
+  min-height: 160px;
 }
 
 .component-slim-hero__content {
@@ -144,6 +153,10 @@ body {
   margin-top: 0;
   padding: 1rem;
   color: #ffffff;
+}
+
+.component-body-text img {
+  width: 100%;
 }
 
 .component-card {
@@ -253,8 +266,9 @@ body {
 }
 
 .uuocc-theme-layout__footer {
+  width: 100%;
+  /* min-height: 120px; */
   background-color: #525252;
-  min-height: 120px;
 }
 
 .uuocc-theme-layout__footer--content {
