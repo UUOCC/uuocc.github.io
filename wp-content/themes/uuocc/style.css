@@ -319,3 +319,12 @@ main { flex: 1; }
 .hamburger-menu.open .hidden-links {
   display: block;
 }
+
+.media-component > iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.media-component > img {
+  width: 100%;
+}
