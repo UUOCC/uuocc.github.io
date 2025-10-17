@@ -328,3 +328,41 @@ main { flex: 1; }
 .media-component > img {
   width: 100%;
 }
+
+.component-calendar {
+  margin: 0 auto;
+}
+
+.component-form {
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  width: 450px;
+  background-color: #B9E1E2;
+}
+
+.component-form > form > p > label {
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+.component-form > form > p > input {
+  height: 30px;
+}
+
+.component-form > form > p > input,
+.component-form > form > p > textarea {
+  border-radius: 14px;
+  width: 100%;
+  background-color: #B1C9D5;
+}
+
+.component-form > form > button {
+  border-radius: 12px;
+  padding: 0.8rem;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #478FFA;
+  font-size: 14pt;
+}
