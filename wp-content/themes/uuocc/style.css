@@ -103,6 +103,7 @@ main { flex: 1; }
 }
 
 .component-hero {
+  position: relative;
   height: 325px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,8 +111,10 @@ main { flex: 1; }
 }
 
 .component-hero__content {
+  position: relative;
   margin: 0 auto;
   display: flex;
+  z-index: 2;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
@@ -362,8 +365,14 @@ main { flex: 1; }
   border-radius: 12px;
   padding: 0.8rem;
   display: block;
-  margin: 0 auto;
   color: #fff;
   background-color: #478FFA;
   font-size: 14pt;
+}
+
+.scrim-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
 }
