@@ -193,13 +193,13 @@ main { flex: 1; }
   text-align: center;
 }
 
-.component-card__link:first-of-type {
+/* .component-card__link:first-of-type {
   float: left;
 }
 
 .component-card__link:last-of-type {
   float: right;
-}
+} */
 
 .component-cta {
   padding: 1.5rem;
