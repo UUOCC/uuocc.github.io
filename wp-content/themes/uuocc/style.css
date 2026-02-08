@@ -422,3 +422,12 @@ main { flex: 1; }
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
 }
+
+.component-full-image > img {
+  width: 100%;
+}
+
+.component-news-letter img {
+  float: right;
+  width: 80%;
+}
